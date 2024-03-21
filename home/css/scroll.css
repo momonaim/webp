@@ -1,0 +1,75 @@
+
+/* animation loop everytime you scroll up and down */
+/* scroll1 is a class that identifies the element
+we wanna animate */
+.scroll1 {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(100%);
+	transition: all 1s ease;
+}
+.scroll2 {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(100%);
+	transition: all 1s ease;
+}
+.scroll3 {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	transition: all 1s ease;
+}
+.scroll4 {
+	opacity: 0;
+
+	transition: all 1s ease;
+}
+.scroll5 {
+	opacity: 0;
+	filter: blur(5px);
+	transform: rotate(45deg);
+	/*transform: translateX(-100%);*/
+	transition: all 1s ease;
+}
+.scroll6 {
+	opacity: 0;
+	filter: blur(5px);
+	transform: rotate(45deg);
+	/*transform: translateX(-100%);*/
+	transition: all 1s ease;
+	transition-delay: 200ms;
+}
+.scroll7 {
+	opacity: 0;
+	filter: blur(5px);
+	transform: rotate(45deg);
+	/*transform: translateX(-100%);*/
+	transition: all 1s ease;
+	transition-delay: 400ms;
+
+}
+.scroll8 {
+	opacity: 0;
+	transform: translateY(50%);
+	transition: all 1s ease;
+}
+/* show no animation if users had enabled 
+reduced motion in their operating system or browser settings*/
+@media(prefers-reduced-motion) {
+	.scroll1 {
+		transition: none;
+	}
+}
+
+.show {
+	filter: blur(0);
+	transform: translateX(0);
+	transform: rotate(0);
+	transform: translateY(0);
+
+	opacity: 1;
+}
+html, body {
+    overflow-x: hidden;
+}

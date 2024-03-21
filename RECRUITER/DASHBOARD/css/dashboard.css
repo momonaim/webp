@@ -1,0 +1,67 @@
+.bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+/* CSS for button inside the card */
+
+@media (max-width: 900px) {
+.card .btn {
+  width: 100%; /* Set the button width to 100% of the card width */
+  box-sizing: border-box; /* Ensure that padding and border are included in the width */
+  margin-top: auto; /* Align the button to the bottom of the card */
+}
+}
+@media (max-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+ /*.offcanvas-body {
+    height: 100vh;  Set the height to 100% of the viewport height 
+}
+.sidebar {
+  overflow-y: auto; /* Add vertical scroll if the content exceeds the viewport height
+} */
+
+
+  .navbar-search {
+    display: block;
+  }
+}
+
+
+
+.sidebar .nav-link {
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+

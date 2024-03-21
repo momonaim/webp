@@ -1,0 +1,21 @@
+
+.hover1:hover {
+    /* Styles on hover */
+    transform: translateY(-10px); /* Move the element 10 pixels up on hover */
+    transition-duration: 0.3s; /* Change transition duration on hover to 0.5 seconds */
+}
+
+.hover2:hover {
+    /* Styles on hover */
+    transform: translateY(-10px); /* Move the element 10 pixels up on hover */
+    transition-duration: 0.3s; /* Change transition duration on hover to 0.5 seconds */
+}
+/* for the job offer cards buttons */
+.hover3 {
+    transition: transform 0.6s ease 0s;
+}
+.hover3:hover {
+    /* Styles on hover */
+    transform: translateY(-4px) ; /* Move the element 10 pixels up on hover */
+    transition-duration: 0.3s; /* Change transition duration on hover to 0.5 seconds */
+}

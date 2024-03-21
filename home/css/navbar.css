@@ -1,0 +1,18 @@
+@media (max-wifth: 991px){
+	.sidebar {
+		background-color: rgba(0, 0, 0, 0);
+	}
+}
+
+@media (max-width: 991px) {
+    #specialNavItem {
+        display: none;
+    }
+}
+.protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+

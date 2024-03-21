@@ -1,0 +1,45 @@
+
+
+.form-signin {
+  max-width: 400px;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 991px) {
+.form-signin3 {
+  max-width: 400px;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+}
+@media (max-width: 991px) {
+.form-signin2 {
+  max-width: 400px;
+  padding: 1rem;
+  /*margin: auto;*/
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+}
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

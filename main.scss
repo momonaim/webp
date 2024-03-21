@@ -1,0 +1,23 @@
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+//$primary: #FFF100;
+$navbar-collapse: #000000;
+//import the functions and variables
+@import "node_modules/bootstrap/scss/_functions";
+@import "node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+	"yellow": #FCEC04,
+	"blue": #0474E4,
+	"scroll": #F2F2F2,
+	"grr": #F2F2F2
+);
+
+//merge
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
