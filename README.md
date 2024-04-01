@@ -1,13 +1,31 @@
 # webp
-The best Job Portal ever
+<p align="center">The best Job Portal ever</p>
+<pre align="left">
+  
 
-----------------Live Preview---------------
+  ░██╗░░░░░░░██╗███████╗██████╗░██████╗░
+  ░██║░░██╗░░██║██╔════╝██╔══██╗██╔══██╗
+  ░╚██╗████╗██╔╝█████╗░░██████╦╝██████╔╝
+  ░░████╔═████║░██╔══╝░░██╔══██╗██╔═══╝░
+  ░░╚██╔╝░╚██╔╝░███████╗██████╦╝██║░░░░░
+  ░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░╚═╝░░░░░ by: ASKA + Secret Agent
+</pre>
+<h1 align="center">WEBP</h1>
+<h3 align="center">By : ASKA</h3>
+<h4>Développé par :</h4><p align="center">Abdelmounim MOUADILI</br>Safaa HIFDI </br>  Kaoutar MEZOUAHI </br>  Aya DAROUICH   </p>
+<h4>Encadré par :</h4><p align="center">Hicham BENALLA</p>
+
+<hr>
+<h1 align="center">Live Preview</h1>
+
+**Live Preview Link:**
 
 https://webp.wuaze.com/
 
 
-*Recommended to Create account first* 
-
+**Recommended to Create account first** 
+<pre>
+  
 or login
 
 candidat 
@@ -24,20 +42,29 @@ https://webp.wuaze.com/admin/admin_login.php
 manjaro@gmail.com
 123456
 
+</pre>
 
 
-DATABASE MOST BE NAMED `WEBP3`
+**DATABASE MOST BE NAMED `WEBP3`**
 
 
-----------REQUIREMENTS---------------------------
-
-phpMyAdmin console:
-`set global net_buffer_length=1048576;`
-`set global max_allowed_packet=1073741824;`
 
 
--------------BDD location-----------------------
+## phpMyAdmin console:
+**Requirements for the Blob data:**
 
+```sql
+set global max_allowed_packet=1073741824;
+```
+```sql
+set global net_buffer_length=1048576;
+```
+
+## BDD location
+
+
+<pre>
+  
 9 results - 9 files
 
 webp.sql:
@@ -84,3 +111,4 @@ RECRUITER\phpcode\post_job_code.php:
   49      // Database connection
   50:     $dsn = 'mysql:host=localhost;dbname=webp3';
   51      $username = 'root';
+</pre>
