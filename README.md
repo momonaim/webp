@@ -8,12 +8,11 @@
   ░╚██╗████╗██╔╝█████╗░░██████╦╝██████╔╝
   ░░████╔═████║░██╔══╝░░██╔══██╗██╔═══╝░
   ░░╚██╔╝░╚██╔╝░███████╗██████╦╝██║░░░░░
-  ░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░╚═╝░░░░░ by: ASKA + Secret Agent
+  ░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░╚═╝░░░░░ by: ASKA + 1
 </pre>
 <h1 align="center">WEBP</h1>
 <h3 align="center">By : ASKA</h3>
-<h4>Développé par :</h4><p align="center">Abdelmounim MOUADILI</br>Safaa HIFDI </br>  Kaoutar MEZOUAHI </br>  Aya DAROUICH   </p>
-<h4>Encadré par :</h4><p align="center">Hicham BENALLA</p>
+<h4>Devlopped by :</h4><p align="center">Abdelmounim MOUADILI</br>Safaa HIFDI </br>  Kaoutar MEZOUAHI </br>  Aya DAROUICH </br>  Secret AGENT   </p>
 
 <hr>
 <h1 align="center">Live Preview</h1>
