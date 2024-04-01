@@ -1,4 +1,4 @@
-
+Recommended to check the LivePreview
 
 DATABASE MOST BE NAMED `WEBP3`
 
