@@ -1,0 +1,21 @@
+----------------Live Preview---------------
+
+https://webp.wuaze.com/
+
+
+Create account first or login
+
+candidat 
+login: tst@maze.kff
+password: tst@maze.kff
+
+recriuter
+adg@mm.com
+123
+
+admin
+https://webp.wuaze.com/admin/admin_login.php
+
+manjaro@gmail.com
+123456
+

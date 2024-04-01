@@ -1,0 +1,68 @@
+.scroll {
+	background: #FFF100;
+}
+
+/* turn all images of the scroll into black and white */
+.bw {
+      filter: grayscale(100%);
+}
+
+@keyframes slide{
+	from {
+		transform: translateX(0);
+	}
+	to{
+		transform: translateX(-100%);
+	}
+}
+
+.logos {
+	/* fix the overflow off the window size remove the x scroller*/
+	overflow: hidden;
+	padding: 40x 0;
+	background: white;
+		/* fix the overlap */
+	white-space: nowrap;
+	position: relative;
+}
+
+.logos:before,
+.logos:after {
+	position: absolute;
+	top: 0;
+	width: 250px;
+	height: 100%;
+	content: "";
+	/* make it on top of everything */
+	z-index: 2;	
+}
+
+/* before and after provide some kind of a fake div */
+.logos:before {
+	left: 0;
+	background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+	content: "";
+	/* make it on top of everything */
+}
+.logos:after {
+	right: 0;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+	content: "";
+	/* make it on top of everything */
+}
+
+.logos:hover .logos-slide {
+	animation-play-state: paused;
+}
+
+.logos-slide {
+	display: inline-block;
+	animation: 40s slide infinite linear;
+}
+
+.logos-slide img {
+	/* make all the images the same height */
+	height: 100px;
+	margin: 0 40px;
+
+}

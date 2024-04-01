@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gg</title>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		//load the function last
+		// $() selector
+		// after the website is done
+		$(document).ready(function() {
+			//fun get run after the website is loaded
+			//includes all the jquery code
+
+			//select the button and fetch the click event
+			$("#btn").click(function() {
+			//choose where to load the data using an id
+			//in this case div with id test
+			//we need a document
+			//second parameter is data loaded into the data.txt file
+			//third parameter is callback occursafter we click
+			$("#test").load("data.txt", {Name: "tomaa", Lastname: "dany"}, function() {
+				alert("wassup");
+			});
+
+			});
+		});
+	</script>
+</head>
+<body>
+	<!-- pinpoint using ajax id -->	
+<div id="test">
+	<p>this is the first content!</p>
+</div>
+<button id="btn">click to use AJAX</button>
+
+
+</body>
+</html>

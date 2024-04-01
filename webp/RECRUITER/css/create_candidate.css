@@ -1,0 +1,27 @@
+.daform {
+  padding: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.daformm {
+  padding: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 534px) {
+.daform2 {
+  padding: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+}
+.damenu {
+  padding: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
