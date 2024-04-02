@@ -27,15 +27,15 @@ https://webp.wuaze.com/
   
 or login
 
-candidat 
+candidat:
 login: tst@maze.kff
 password: tst@maze.kff
 
-recriuter
+recruiter:
 adg@mm.com
 123
 
-admin
+admin:
 https://webp.wuaze.com/admin/admin_login.php
 
 manjaro@gmail.com
